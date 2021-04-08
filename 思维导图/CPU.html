@@ -1,0 +1,240 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="text/css" http-equiv="Content-Style-Type">
+<title>CPU</title>
+</head>
+<body>
+<h1 align="center" class="root">
+<a name="1c6b0973a1lubnbri01e898g90">CPU</a>
+</h1>
+<div align="center" class="globalOverview">
+<img src="CPU_files/images/CPU.jpg"></div>
+<h2 class="topic">
+<a name="2of5n0i5mmgsr171bafldtubrt">基本概念</a>
+</h2>
+<h3 class="topic">
+<a name="10p2nbmadhim5e51ukvkflf17e">&nbsp;计算机执行程序 -&gt; 程序是指令集合 -&gt; 指令是一系列二进制代码</a>
+</h3>
+<h3 class="topic">
+<a name="5sa41rm22au02p3bd1pqaf6n2t">&nbsp;CPU执行程序的指令</a>
+</h3>
+<h3 class="topic">
+<a name="7obupvg9g046hb9bv42m9duu8r">&nbsp;&nbsp;1.取指令</a>
+</h3>
+<h3 class="topic">
+<a name="17c668k3a4pugdl2uqvm82dsq8">&nbsp;&nbsp;&nbsp;指令存储在存储单元中</a>
+</h3>
+<h3 class="topic">
+<a name="2nc78q10fahcutsgavu9jjcn9f">&nbsp;&nbsp;&nbsp;程序计数器提供要执行指令的地址</a>
+</h3>
+<h3 class="topic">
+<a name="65c86blp8dbjr7r8tvp9e3i3a5">&nbsp;&nbsp;2.分析指令</a>
+</h3>
+<h3 class="topic">
+<a name="4j96se7nh1oofii290spe8pegm">&nbsp;&nbsp;&nbsp;操作码+地址码</a>
+</h3>
+<h3 class="topic">
+<a name="5o9rok4d8t58o1o06ppe4tbil5">&nbsp;&nbsp;&nbsp;取出操作数据(算术逻辑指令)、形成转移地址(转移类指令)</a>
+</h3>
+<h3 class="topic">
+<a name="1n5r2t00euaujquhd8dnqnsqh2">&nbsp;&nbsp;3.执行指令</a>
+</h3>
+<h3 class="topic">
+<a name="4jgidri19cskoen8t5v2m9iqsi">&nbsp;&nbsp;&nbsp;执行操作并根据需要保存操作结果</a>
+</h3>
+<h3 class="topic">
+<a name="411v16ilntuqtm10ug93s6o0bt">&nbsp;复杂指令系统CISC与精简指令系统RISC</a>
+</h3>
+<h2 class="topic">
+<a name="6vomnjigf18v43ahg4nffja3p8">指令系统</a>
+</h2>
+<h3 class="topic">
+<a name="74v964sqtldt081g3envodk91a">&nbsp;指令系统：硬件设计的依据，软件设计的基础</a>
+</h3>
+<h3 class="topic">
+<a name="4p02v7me091tpteoc58gv9hb74">&nbsp;指令系统：CPU所能处理的全部指令的集合</a>
+</h3>
+<h3 class="topic">
+<a name="48vk85us6jo94ifp1anmmueu00">&nbsp;指令的基本格式</a>
+</h3>
+<h3 class="topic">
+<a name="5it43fo82utf9s74s03lm2i4n4">&nbsp;&nbsp;指令：要执行的操作+操作数的来源+操作结果的去向</a>
+</h3>
+<h3 class="topic">
+<a name="65sotb7fkcjfbc117rvn0t05tj">&nbsp;&nbsp;操作码字段+地址码字段</a>
+</h3>
+<h3 class="topic">
+<a name="4ectl8j470mfo7ui870k5hi091">&nbsp;&nbsp;指令助记符：文字符号表示操作码和地址码</a>
+</h3>
+<h3 class="topic">
+<a name="5crb9lqjevfp28lvg4f82ofhfb">&nbsp;指令分类</a>
+</h3>
+<h3 class="topic">
+<a name="46pj4ak0u0baiq9foe893rldas">&nbsp;&nbsp;暂停(HLT)指令</a>
+</h3>
+<h3 class="topic">
+<a name="3umjlsmf42ap51lmmkjg956kdb">&nbsp;&nbsp;转移(SKZ)指令</a>
+</h3>
+<h3 class="topic">
+<a name="36s5g0gn6jcqm5uk3bet6f0rk7">&nbsp;&nbsp;&nbsp;如果ALU中的结果为0，则跳过下一条语句执行；为1则执行下一条语句</a>
+</h3>
+<h3 class="topic">
+<a name="1i76uvejb6779df0hjj74ojlt1">&nbsp;&nbsp;ADD指令</a>
+</h3>
+<h3 class="topic">
+<a name="7fnvq6qnd1uc9f44bnsn5qlhk4">&nbsp;&nbsp;&nbsp;将累加器中的数据与地址所指的存储器或端口中的数据相加，结果送回累加器中</a>
+</h3>
+<h3 class="topic">
+<a name="7j34r4gpm6iej7qj86b3651lfk">&nbsp;&nbsp;AND指令</a>
+</h3>
+<h3 class="topic">
+<a name="2mfmvgibnpf7m39hbtolt75rfe">&nbsp;&nbsp;XOR指令</a>
+</h3>
+<h3 class="topic">
+<a name="50oq6be4e8224pnjnr2k176g7l">&nbsp;&nbsp;LDA指令</a>
+</h3>
+<h3 class="topic">
+<a name="63ki2k7n8qseg0q5282i8ga6oc">&nbsp;&nbsp;&nbsp;将指令地址中的数据放入累加器中</a>
+</h3>
+<h3 class="topic">
+<a name="2b237cdv5bsvphb0fso0bka5cs">&nbsp;&nbsp;数据转移(STO)指令</a>
+</h3>
+<h3 class="topic">
+<a name="6jg55edm3fl0uvo7r0m96g9hk1">&nbsp;&nbsp;&nbsp;将累加器中的数据放入指令中给出的地址</a>
+</h3>
+<h3 class="topic">
+<a name="5rje6deukedpsa5f4phfspi320">&nbsp;&nbsp;跳转(JMP)指令</a>
+</h3>
+<h3 class="topic">
+<a name="0n7dq5st6j074p2o7975oaqt3h">&nbsp;&nbsp;&nbsp;跳转至指令给出的目的地址并继续执行</a>
+</h3>
+<h3 class="topic">
+<a name="4aqb9mmda6p5epc5a5704pmp37">&nbsp;寻址方式</a>
+</h3>
+<h3 class="topic">
+<a name="29f2aj00l4f7ruuf659m2o66p4">&nbsp;&nbsp;指令寻址方式</a>
+</h3>
+<h3 class="topic">
+<a name="6figtkl65iulkpogd2hets0l99">&nbsp;&nbsp;&nbsp;顺序寻址</a>
+</h3>
+<h3 class="topic">
+<a name="7dhvu8tikg648q5fmrhihskt06">&nbsp;&nbsp;&nbsp;跳跃寻址</a>
+</h3>
+<h3 class="topic">
+<a name="6in2u4prm4lniocu9lm4h0j1lg">&nbsp;&nbsp;操作数寻址方式</a>
+</h3>
+<h3 class="topic">
+<a name="47j6j3u8bavngguhr7d3m2jer8">&nbsp;&nbsp;&nbsp;立即寻址</a>
+</h3>
+<h3 class="topic">
+<a name="539jlapst2vbd7489e7bjcm2pa">&nbsp;&nbsp;&nbsp;直接寻址</a>
+</h3>
+<h3 class="topic">
+<a name="11nd7akr1mgd9clp7csfj07f2r">&nbsp;&nbsp;&nbsp;间接寻址</a>
+</h3>
+<h3 class="topic">
+<a name="1h70hmluh1e49ha2m86147u43k">&nbsp;&nbsp;&nbsp;寄存器寻址</a>
+</h3>
+<h3 class="topic">
+<a name="05qqf8lql2cos2d0sv4mrfbhju">&nbsp;&nbsp;&nbsp;基址寻址</a>
+</h3>
+<h3 class="topic">
+<a name="67ha6umkpal9fbmqg4qikhil2m">&nbsp;&nbsp;&nbsp;编制寻址</a>
+</h3>
+<h3 class="topic">
+<a name="6d61reachbee6ss8ah30nors8v">&nbsp;&nbsp;&nbsp;相对寻址</a>
+</h3>
+<h3 class="topic">
+<a name="0bqohk5lh6mcu2mrkl8bnts3v4">&nbsp;指令周期</a>
+</h3>
+<h3 class="topic">
+<a name="691oo4cvkr700k4rgdvdld6v2j">&nbsp;&nbsp;1.指令周期</a>
+</h3>
+<h3 class="topic">
+<a name="50uormgaks0plhglj4kj6rseb7">&nbsp;&nbsp;&nbsp;读取并执行一条指令所需的时间</a>
+</h3>
+<h3 class="topic">
+<a name="3p28du4ao1bshlcanagp0f39u7">&nbsp;&nbsp;2.CPU周期</a>
+</h3>
+<h3 class="topic">
+<a name="0bu3lcrm5qi2pkrtb6lk143cpg">&nbsp;&nbsp;&nbsp;读取一条指令所需的最短时间</a>
+</h3>
+<h3 class="topic">
+<a name="4l7v9okg5pnsojstnj0q1ntji7">&nbsp;&nbsp;3.时钟周期</a>
+</h3>
+<h2 class="topic">
+<a name="7a4cec00do2hk4tv7kv5ecequr">功能部件</a>
+</h2>
+<h3 class="topic">
+<a name="5t9brdhgott9mqbnacnsg6foh2">&nbsp;1.存储器</a>
+</h3>
+<h3 class="topic">
+<a name="563jdr1uns9f3e23k6iqepj8av">&nbsp;&nbsp;存储指令系统中的所有指令</a>
+</h3>
+<h3 class="topic">
+<a name="7h31mjfngbfkvm8drqt1nmvsn5">&nbsp;&nbsp;8位cpu，地址位5位，存储器大小为32*8bit</a>
+</h3>
+<h3 class="topic">
+<a name="56mmv4g0c1l52v90jb58hoapn0">&nbsp;&nbsp;&nbsp;控制器传来的read和write信号</a>
+</h3>
+<h3 class="topic">
+<a name="036qkvtv4me63o6sf2n5b5p99a">&nbsp;&nbsp;&nbsp;地址选择器上的地址信号addr[4:0]</a>
+</h3>
+<h3 class="topic">
+<a name="5gvqfgf4gufe1o0q15rptr8lhf">&nbsp;&nbsp;&nbsp;总线上的data[7:0]</a>
+</h3>
+<h3 class="topic">
+<a name="6ebuc2lo9oo2ndaa763127faqu">&nbsp;2.程序计数器</a>
+</h3>
+<h3 class="topic">
+<a name="2rk78oa3d5nrhg61le9jji8t98">&nbsp;&nbsp;存放想要执行的指令的地址[4:0]</a>
+</h3>
+<h3 class="topic">
+<a name="6sp68fefkc22llkno3e3nl87h1">&nbsp;&nbsp;顺序执行，地址+2</a>
+</h3>
+<h3 class="topic">
+<a name="75ngm8cppnt84suur4ljh864c5">&nbsp;&nbsp;跳转执行，地址为load信号</a>
+</h3>
+<h3 class="topic">
+<a name="4jqv6jgluge2cet5ilco6941eg">&nbsp;3.指令寄存器</a>
+</h3>
+<h3 class="topic">
+<a name="59mudvuhfls13a7r3j3lhd7ddl">&nbsp;&nbsp;存放当前正在执行的指令</a>
+</h3>
+<h3 class="topic">
+<a name="2jdgos53jftevebtqrldvvahqm">&nbsp;&nbsp;输入data[7:0],输出opcode[7:5] addr[4:0]</a>
+</h3>
+<h3 class="topic">
+<a name="0qiqhejpv7plv9iog3clusgeln">&nbsp;&nbsp;控制器的ld信号</a>
+</h3>
+<h3 class="topic">
+<a name="2lb5i5ph2p8q02fvps0817mgil">&nbsp;4.地址多路选择器</a>
+</h3>
+<h3 class="topic">
+<a name="6vgen45vmonvrkmhsal2015nlq">&nbsp;&nbsp;从多个指令地址源头中选择一个传输给存储器</a>
+</h3>
+<h3 class="topic">
+<a name="0arbe49bsdqfbigt45n6rq759v">&nbsp;5.算术逻辑单元</a>
+</h3>
+<h3 class="topic">
+<a name="6inphn2o0ageoq50qcapv0vhf4">&nbsp;&nbsp;根据指令码判断执行什么操作</a>
+</h3>
+<h3 class="topic">
+<a name="2lldl62pj07v4epfg6ov1kfju8">&nbsp;&nbsp;data[7:0],accu[7:0],opcode,zero,alu_out[7:0]</a>
+</h3>
+<h3 class="topic">
+<a name="425596r24m4825v5h3qn861kkc">&nbsp;6.累加器</a>
+</h3>
+<h3 class="topic">
+<a name="0h8q9a9pb5uvt8rpkae77v5d3r">&nbsp;&nbsp;暂时存放ALU的操作数或者运算结果</a>
+</h3>
+<h3 class="topic">
+<a name="5ilmst25310ne9dun3qa88vq9n">&nbsp;7.状态控制器</a>
+</h3>
+<h3 class="topic">
+<a name="48t4i9n379al8rjnsp8i451j97">&nbsp;&nbsp;前4个周期从存储器中读取数据，后4个周期发出不同的控制信号</a>
+</h3>
+</body>
+</html>
